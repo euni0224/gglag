@@ -1,0 +1,199 @@
+.pagination{
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+}
+.pagination span{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.pagination span.active{
+    background: #fff;
+}
+.ad{
+    position: relative;
+    margin-bottom: 15px;
+}
+.ad img{
+    width: 100%;
+}
+.ad .pagination{
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+.containar a{
+    display: block;
+    height: inherit;
+}
+.containar .cover-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containar .headline{
+    text-align: center;
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.containar .cover-item{
+    margin: 0 20px;
+}
+.containar .cover-item .cover-ex{
+    margin: 17px 0 21px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.containar .cover-item img{
+    width: 100%;
+}
+.link-detail{
+    font-size: 12px;
+    box-sizing: border-box;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #222;
+    line-height: 36px;
+    
+}
+.containar .cover-item .link-detail{
+    margin-bottom: 15px;
+}
+.containar .recommendation-list{
+}
+.containar .recommendation-item{
+    display: flex;
+    justify-content: center; 
+    padding: 44px 0;
+    background: url(/assets/images/recomme.jpg) center/cover no-repeat;
+    width: 100%;
+}
+.containar .recommendation-item .product-sort{
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    width: 280px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+}
+.containar .recommendation-item .product-sort .product-name{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.containar .recommendation-item .product-sort .product-ex{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+.containar .recommendation-item .product-sort .link-recommendation-detail{
+    margin-top: 10px;
+}
+.containar .event .event-list{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containar .event .link-event{
+    margin-top: 40px;
+}
+.containar .event .event-day{
+    margin: 14px 0 ;
+    font-size: 12px;
+    line-height: 14px;
+    color: #858585;
+}
+.containar .event .event-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.containar .event .event-ex{
+    margin: 14px 0 22px;
+    font-size: 12px;
+}
+.reviews{
+    margin-top: 21px;
+    margin: 0 10px;
+}
+.reviews .group-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviews .link-review img{
+    margin-bottom: 15px;
+}
+.reviews .reviews-title{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.reviews .link-review .reviews-ex{
+    margin: 5px 0 17px;
+    font-size: 13px;
+    line-height: 20px;
+    width: 260px;
+}
+.reviews .pagination{
+    margin: 33px 0 50px;
+}
+.reviews .pagination span{
+    border: 2px solid #ddd;
+
+}
+.reviews .pagination span.active{
+    background: #ddd;
+}
+.news{
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.news .news-headline-area img{
+    width: 30px;
+    height: 30px;
+}
+.news .news-headline-area{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    align-items: center;
+}
+.news .news-headline-area img{
+    margin: 10px 0;
+}
+.news .headline-sm{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.news .news-list .link-news{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.news .news-item p{
+    font-size: 12px;
+    line-height: 50px;
+    color: #888;
+}
+.news .news-item .news-ex{
+    color: #222;
+}
+.sns{
+    padding: 22px 52px;
+    height: 81px;
+    background: #d71609;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}

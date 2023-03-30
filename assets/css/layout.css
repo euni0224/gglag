@@ -1,0 +1,91 @@
+@import './reset.css';
+@import './common.css';
+
+
+.header{
+    position: relative;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    position: absolute;
+    width: 133px;
+    height: 17px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header h1 a{
+    display: block;
+    height: inherit;
+}
+.header .img-box{
+    margin: 0 17px;
+    width: 30px;
+    height: 30px;
+
+}
+.footer{
+    background: #aaa;
+    padding: 35px 0;
+    color: #fff;
+}
+.footer .call-area{
+    width: 200px;
+    height: 100px;
+    padding: 13px 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 35px;
+    border: 1px solid #fff;
+    gap: 7px;
+}
+.footer .group-center .title{
+    font-size: 16px;
+    line-height: 15px;
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+}
+.footer .group-center .desc{
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer .group-center .link-tel{
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 15px;
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+}
+.footer .group-center{
+    display: flex;
+    justify-content: center;
+}
+.footer .group-info{
+    margin: 0 20px;
+}
+.footer .group-info img{}
+.footer .group-info .addr-area{
+    margin: 20px 0;
+}
+.footer .group-info .addr{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer .group-info .copy{
+    margin: 18px 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer .bar{
+    display: block;
+    background: #fff;
+    height: 12px;
+    width: 1px;
+    margin: 0 5px;
+
+}
